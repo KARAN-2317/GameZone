@@ -1,0 +1,238 @@
+
+/* ==============================
+   GAMEZONE - RESPONSIVE DESIGN
+================================ */
+
+/* Tablets and Small Laptops */
+
+@media (max-width: 1100px) {
+
+    .main-content {
+        padding: 0 22px;
+    }
+
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .games-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .hero-section {
+        padding: 30px;
+    }
+
+    .hero-visual {
+        width: 220px;
+    }
+}
+
+/* Tablets */
+
+@media (max-width: 768px) {
+
+    .sidebar {
+        transform: translateX(-100%);
+        box-shadow: 10px 0 40px rgba(0, 0, 0, 0.4);
+    }
+
+    .sidebar.open {
+        transform: translateX(0);
+    }
+
+    .main-content {
+        margin-left: 0;
+        padding: 0 20px;
+    }
+
+    .menu-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .top-navbar {
+        height: 80px;
+    }
+
+    .hero-section {
+        min-height: 280px;
+    }
+
+    .hero-content h1 {
+        font-size: 38px;
+    }
+
+    .hero-visual {
+        width: 180px;
+    }
+
+    .hero-circle {
+        width: 145px;
+        height: 145px;
+    }
+
+    .hero-circle span {
+        font-size: 70px;
+    }
+}
+
+/* Mobile Phones */
+
+@media (max-width: 550px) {
+
+    .main-content {
+        padding: 0 14px;
+    }
+
+    .top-navbar {
+        height: 75px;
+    }
+
+    .nav-left {
+        gap: 10px;
+    }
+
+    .nav-left h2 {
+        font-size: 17px;
+    }
+
+    .welcome-text {
+        font-size: 9px;
+    }
+
+    .player-info {
+        padding: 5px;
+        border: none;
+        background: transparent;
+    }
+
+    .player-info h4 {
+        font-size: 10px;
+    }
+
+    .player-info p {
+        display: none;
+    }
+
+    .player-avatar {
+        width: 34px;
+        height: 34px;
+    }
+
+    .page-section {
+        padding-top: 20px;
+    }
+
+    /* Hero */
+
+    .hero-section {
+        padding: 25px 20px;
+        min-height: 340px;
+    }
+
+    .hero-content {
+        max-width: 100%;
+    }
+
+    .hero-content h1 {
+        font-size: 35px;
+    }
+
+    .hero-content p {
+        font-size: 11px;
+    }
+
+    .hero-visual {
+        display: none;
+    }
+
+    /* Statistics */
+
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .stat-card {
+        padding: 12px;
+        min-height: 85px;
+        gap: 9px;
+    }
+
+    .stat-icon {
+        width: 34px;
+        height: 34px;
+        font-size: 16px;
+    }
+
+    .stat-card p {
+        font-size: 9px;
+    }
+
+    .stat-card h2 {
+        font-size: 19px;
+    }
+
+    /* Game Cards */
+
+    .games-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .game-image {
+        height: 140px;
+    }
+
+    .section-heading h2 {
+        font-size: 20px;
+    }
+
+    /* Profile */
+
+    .profile-card,
+    .about-card {
+        padding: 22px 16px;
+    }
+
+    /* Game Area */
+
+    .game-play-container {
+        padding: 14px;
+    }
+
+    .tic-cell {
+        font-size: 30px;
+    }
+
+    .game-info-card {
+        padding: 12px 5px;
+    }
+
+    .game-info-card h3 {
+        font-size: 18px;
+    }
+
+    .footer {
+        font-size: 10px;
+    }
+}
+
+/* Very Small Phones */
+
+@media (max-width: 360px) {
+
+    .hero-content h1 {
+        font-size: 29px;
+    }
+
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .player-info {
+        gap: 5px;
+    }
+}
